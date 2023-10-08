@@ -1,4 +1,4 @@
-package CreationalDesignPattern.Factory.fouotsop_fosso_patrick_20U2585.Code.Factory;
+package creational.factory.fouotsop_fosso_patrick_20U2585.code.factory;
 
 public class Client {
    
