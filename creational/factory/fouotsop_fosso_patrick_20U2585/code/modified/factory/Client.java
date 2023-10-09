@@ -3,9 +3,9 @@ package creational.factory.fouotsop_fosso_patrick_20U2585.code.modified.factory;
 public class Client {
    
     public static void main(String[] args) {
-        ProduitFactoryA1 produitFactoryA1 = new ProduitFactoryA1();
-        ProduitFactoryA2 produitFactoryA2 = new ProduitFactoryA2();
-        ProduitFactoryA3 produitFactoryA3 = new ProduitFactoryA3();
+        ProduitFactory1 produitFactoryA1 = new ProduitFactory1();
+        ProduitFactory2 produitFactoryA2 = new ProduitFactory2();
+        ProduitFactory3 produitFactoryA3 = new ProduitFactory3();
 
         ProduitA produitA = null;
 
