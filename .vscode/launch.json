@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ClientFactory",
+            "request": "launch",
+            "mainClass": "creational.factory.fouotsop_fosso_patrick_20U2585.code.modified.factory.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "ClientFactoryMethod",
+            "request": "launch",
+            "mainClass": "creational.factory.fouotsop_fosso_patrick_20U2585.code.modified.factorymethod.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "TestingSingleton",
+            "request": "launch",
+            "mainClass": "creational.singleton.fouotsop_fosso_patrick_20U2585.code.TestingSingleton",
+            "projectName": "software-design-patterns_a89be065"
+        }
+    ]
+}
