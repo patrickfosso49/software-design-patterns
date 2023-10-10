@@ -3,8 +3,14 @@ package creational.singleton.fouotsop_fosso_patrick_20U2585.code.modified;
 public class TestingSingleton {
     public static void main(String[] args) {
         int som = Arithmetic.getInstance().somme(2, 5);
+        int difference = Arithmetic.getInstance().soustraction(2, 5);
+        int product = Arithmetic.getInstance().multiplication(2, 5);
+        float average = Arithmetic.getInstance().moyenne(2,5);
 
-        System.out.printf("la somme est %d", som);
+        System.out.printf("la somme est %d\n", som);
+        System.out.printf("la difference est %d\n", difference);
+        System.out.printf("le produit est %d\n", product);
+        System.out.printf("la somme est %d\n", average);
 
         Arithmetic s1 = Arithmetic.getInstance(8, 3);
         s1.affiche();

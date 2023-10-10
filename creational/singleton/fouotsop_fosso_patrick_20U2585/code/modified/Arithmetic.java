@@ -14,6 +14,7 @@ public class Arithmetic {
         this.x = x;
         this.y = y;
     }
+
     private Arithmetic( int x, int y, String nom) {
         this.x = x;
         this.y = y;
@@ -44,6 +45,14 @@ public class Arithmetic {
 
     public int somme( int x, int y) {
         return x + y;
+    }
+
+    public int soustraction(int x, int y) {
+        return x - y;
+    }
+
+    public int multiplication(int x, int y) {
+        return x * y;
     }
 
     public float moyenne(int x, int y) {
