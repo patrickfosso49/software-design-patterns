@@ -1,4 +1,4 @@
-package creational.singleton.fouotsop_fosso_patrick_20U2585.code;
+package creational.singleton.fouotsop_fosso_patrick_20U2585.code.initial;
 
 public final class Singleton {
 
@@ -24,7 +24,7 @@ public final class Singleton {
         return instance;
     }
 
-    public static Singleton getInsgance (int x, int y) {
+    public static Singleton getInstance (int x, int y) {
         if (instance == null) {
             instance = new Singleton(x, y);
         }

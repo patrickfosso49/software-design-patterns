@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestingSingleton",
+            "request": "launch",
+            "mainClass": "creational.singleton.fouotsop_fosso_patrick_20U2585.code.initial.TestingSingleton",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "TestingSingleton",
+            "request": "launch",
+            "mainClass": "creational.singleton.fouotsop_fosso_patrick_20U2585.code.modified.TestingSingleton",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
             "name": "Client",
             "request": "launch",
             "mainClass": "creational.factory.fouotsop_fosso_patrick_20U2585.code.initial.factorymethod.Client",
