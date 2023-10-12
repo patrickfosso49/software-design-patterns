@@ -10,7 +10,7 @@ public class TestingSingleton {
         System.out.printf("la somme est %d\n", som);
         System.out.printf("la difference est %d\n", difference);
         System.out.printf("le produit est %d\n", product);
-        System.out.printf("la somme est %d\n", average);
+        System.out.printf("la somme est %f\n", average);
 
         Arithmetic s1 = Arithmetic.getInstance(8, 3);
         s1.affiche();

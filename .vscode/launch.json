@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Client",
             "request": "launch",
+            "mainClass": "creational.builder.code.modified.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "creational.builder.code.initial.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
             "mainClass": "creational.abstractfactory.code.modified.Client",
             "projectName": "software-design-patterns_a89be065"
         },
