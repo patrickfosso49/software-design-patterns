@@ -42,6 +42,7 @@ Alternatively you can compile and run the main classes for each pattern by runni
 example for singleton pattern
 ```console
 username@pc:~/software-design-patterns$ javac creational/singleton/fouotsop_fosso_patrick_20U2585/code/initial/TestingSingleton.java
-
+```
+```console
 username@pc:~/software-design-patterns$ java creational/singleton/fouotsop_fosso_patrick_20U2585/code/initial/TestingSingleton
 ```
