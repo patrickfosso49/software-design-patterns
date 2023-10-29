@@ -53,11 +53,13 @@ public class DList {
         if (temp == null) {
             return temp;
         }
-        head = temp.next;
+
         head.previous = null;
-        temp.next = null;
 
         value = head.value;
+        head = temp.next;
+        temp.next = null;
+
         return value;
     }
 
@@ -80,7 +82,7 @@ public class DList {
     }
 
     public Object getHead() {
-        return this.head;
+        return this.head.value;
     }
 
     public Object getTail() {

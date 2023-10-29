@@ -9,16 +9,16 @@ public class AdaptRectangle implements Icarre {
     }
 
     @Override
-    public float perimetre() {
-        rectangle.setLargeur(0);
-        rectangle.setLongeur(0);
+    public float perimetre(float cote) {
+        rectangle.setLargeur(cote);
+        rectangle.setLongeur(cote);
         return rectangle.perimetre();
     }
 
     @Override
-    public float aire() {
-        rectangle.setLargeur(0);
-        rectangle.setLongeur(0);
+    public float aire(float cote) {
+        rectangle.setLargeur(cote);
+        rectangle.setLongeur(cote);
         return rectangle.aire();
     }
 

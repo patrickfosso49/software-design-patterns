@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Programme",
+            "request": "launch",
+            "mainClass": "structural.adapter.code.sqaure.Programme",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "Gestion",
+            "request": "launch",
+            "mainClass": "structural.adapter.code.stack.inheritance.Gestion",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "Gestion",
+            "request": "launch",
+            "mainClass": "structural.adapter.code.stack.association.Gestion",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
             "name": "Client",
             "request": "launch",
             "mainClass": "creational.builder.code.modified.Client",
