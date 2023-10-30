@@ -1,4 +1,4 @@
-package structural.adapter.code.sqaure;
+package structural.adapter.code.square;
 
 public class Programme {
 
