@@ -3,7 +3,7 @@ package creational.singleton.fouotsop_fosso_patrick_20U2585.code.initial;
 public final class Singleton {
 
     private static Singleton instance = null;
-    
+
     private int x;
     private int y;
 
@@ -18,25 +18,25 @@ public final class Singleton {
     }
 
     public static Singleton getInstance() {
-        if (instance ==null) {
+        if (instance == null) {
             instance = new Singleton();
         }
         return instance;
     }
 
-    public static Singleton getInstance (int x, int y) {
+    public static Singleton getInstance(int x, int y) {
         if (instance == null) {
             instance = new Singleton(x, y);
         }
         return instance;
     }
 
-    public int somme( int x, int y) {
+    public int somme(int x, int y) {
         return x + y;
     }
 
     public float moyenne(int x, int y) {
-        return somme(x,y)/2;
+        return somme(x, y) / 2;
     }
 
     public void affiche() {

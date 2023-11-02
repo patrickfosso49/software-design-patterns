@@ -1,4 +1,4 @@
-package structural.adapter.document;
+package structural.adapter.code.document;
 
 public class ComposantPdf {
 

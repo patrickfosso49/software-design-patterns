@@ -1,7 +1,7 @@
 package creational.singleton.fouotsop_fosso_patrick_20U2585.code.initial;
 
 public class TestingSingleton {
-    
+
     public static void main(String[] args) {
         int som = Singleton.getInstance().somme(2, 5);
 

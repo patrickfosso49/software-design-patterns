@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "structural.composite.code.text.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
             "name": "ServeurWeb",
             "request": "launch",
             "mainClass": "structural.adapter.document.ServeurWeb",
