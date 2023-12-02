@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BridgeDesignPatternMain",
+            "request": "launch",
+            "mainClass": "structural.bridge.modified.BridgeDesignPatternMain",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "TestingSingleton",
+            "request": "launch",
+            "mainClass": "creational.singleton.code.modified.TestingSingleton",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "TestingSingleton",
+            "request": "launch",
+            "mainClass": "creational.singleton.code.initial.TestingSingleton",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "creational.factory.code.modified.factorymethod.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "creational.factory.code.modified.factory.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "creational.factory.code.initial.factorymethod.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "creational.factory.code.initial.factory.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "creational.abstractfactory.code.initial.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
             "name": "Client",
             "request": "launch",
             "mainClass": "structural.composite.code.file.Client",
