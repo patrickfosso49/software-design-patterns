@@ -1,7 +1,6 @@
-package structural.bridge.modified;
+package structural.bridge.code.initial;
 
 public abstract class Shape {
-
     Color color;
 
     Shape(Color color) {

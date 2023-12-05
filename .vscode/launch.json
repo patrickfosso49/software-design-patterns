@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "structural.decorator.code.initial.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "structural.decorator.code.modified.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "ServeurWeb",
+            "request": "launch",
+            "mainClass": "structural.adapter.code.document.ServeurWeb",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "structural.decorator.modified.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "structural.decorator.initial.Client",
+            "projectName": "software-design-patterns_a89be065"
+        },
+        {
+            "type": "java",
             "name": "BridgeDesignPatternMain",
             "request": "launch",
             "mainClass": "structural.bridge.modified.BridgeDesignPatternMain",

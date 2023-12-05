@@ -1,4 +1,4 @@
-package structural.bridge.initial;
+package structural.bridge.code.modified;
 
 public class BlueColor implements Color {
 

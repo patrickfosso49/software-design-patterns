@@ -1,4 +1,4 @@
-package structural.bridge.initial;
+package structural.bridge.code.initial;
 
 public interface Color {
 

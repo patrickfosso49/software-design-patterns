@@ -1,4 +1,4 @@
-package structural.bridge.modified;
+package structural.bridge.code.modified;
 
 public class Triangle extends Shape {
 
